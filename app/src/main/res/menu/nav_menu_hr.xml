@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/new_post"
+        android:icon="@drawable/icon_add"
+        android:title="New Post"/>
+
+    <item
+        android:id="@+id/manage_post"
+        android:icon="@drawable/icon_managepost"
+        android:title="Manage Post"/>
+
+    <item
+        android:id="@+id/applicants"
+        android:icon="@drawable/icon_jobapplicants"
+        android:title="Job Applicants"/>
+
+    <item
+        android:id="@+id/project_status"
+        android:icon="@drawable/icon_projectstatus"
+        android:title="Project Status"/>
+
+    <item
+        android:id="@+id/post_history"
+        android:icon="@drawable/icon_allpost"
+        android:title="All Posts"/>
+
+    <item
+        android:id="@+id/past_transactions"
+        android:icon="@drawable/icon_pasttransaction"
+        android:title="Past Transactions"/>
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/icon_settings"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/icon_aboutusnavbaar"
+        android:title="About Us"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/icon_logout"
+        android:title="Logout"/>
+</menu>

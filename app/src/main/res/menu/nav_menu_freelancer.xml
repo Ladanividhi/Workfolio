@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/nav_projects" android:icon="@drawable/icon_projects" android:title="Projects"/>
+     <item android:id="@+id/nav_earnings" android:icon="@drawable/icon_earnings" android:title="Earnings"/>
+     <item android:id="@+id/nav_update_profile" android:icon="@drawable/icon_updateprofile" android:title="Update Profile"/>
+     <item android:id="@+id/nav_search" android:icon="@drawable/icon_dashsearch" android:title="Search"/>
+     <item android:id="@+id/nav_settings" android:icon="@drawable/icon_settings" android:title="Settings"/>
+     <item android:id="@+id/nav_about" android:icon="@drawable/icon_aboutusnavbaar" android:title="About Us"/>
+     <item android:id="@+id/nav_logout" android:icon="@drawable/icon_logout" android:title="Logout"/>
+</menu>

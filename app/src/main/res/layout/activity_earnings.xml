@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".EarningsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_dark"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/theme_dark"
+            app:title="Earnings"
+            app:titleTextColor="@color/white"
+            app:navigationIcon="@drawable/icon_back"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <!-- Total Earnings -->
+    <TextView
+        android:id="@+id/tvTotalEarnings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Earnings: $0.00"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/bg_card"
+        android:textColor="@color/black"/>
+
+    <!-- Monthly Earnings Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monthly Earnings"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:textColor="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMonthlyEarnings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:paddingTop="10dp"
+        android:nestedScrollingEnabled="false"/>
+
+    <!-- Recent Transactions Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent Transactions"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingTop="20dp"
+        android:textColor="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:nestedScrollingEnabled="false"/>
+
+</LinearLayout>

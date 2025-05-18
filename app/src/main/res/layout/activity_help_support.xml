@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Title Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_dark"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/theme_dark"
+                app:title="Help and Support"
+                app:titleTextColor="@color/white"
+                app:navigationIcon="@drawable/icon_back"/>
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+    <!-- Scrollable FAQs -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- FAQ 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_bg"
+                android:padding="12dp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="12dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to log in?"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Open the app and go to the login page.\n2. Enter your email/username and password.\n3. Click the 'Login' button."
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- FAQ 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_bg"
+                android:padding="12dp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="12dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to log out?"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Click on the menu icon in the top right.\n2. Select 'Logout' from the menu.\n3. Confirm logout."
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- FAQ 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_bg"
+                android:padding="12dp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="12dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to post a job?"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Go to the 'Post a Job' section in dashboard.\n2. Enter job details such as title, description, and salary.\n3. Click the 'Submit' button to post the job."
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- FAQ 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_bg"
+                android:padding="12dp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="12dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to apply for a job?"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Browse available jobs in the job listing section.\n2. Click on a job you want to apply for.\n3. Enter required details and click 'Apply'."
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- FAQ 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_bg"
+                android:padding="12dp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="12dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to contact support?"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Click on the menu icon in the top right.\n2. Click 'Contact Us'.\n3. contect to the given E-mail or mobile number"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- FAQ 6 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_bg"
+                android:padding="12dp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="12dp"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to reset your password?"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. On the login screen, click 'Forgot Password?'.\n2. Enter your registered email and mobile number.\n3. And then set a new password."
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- FAQ 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_bg"
+                android:padding="12dp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="12dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to edit your profile?"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Click on the menuicon in the top right corner.\n2. Select 'Edit Profile'.\n3. Update your information and save changes."
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

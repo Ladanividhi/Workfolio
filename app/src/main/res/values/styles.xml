@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Change the color of the border -->
+        <item name="hintTextColor">@color/theme_dark</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+
+        <item name="boxStrokeColor">@color/theme_dark</item>
+    </style>
+</resources>

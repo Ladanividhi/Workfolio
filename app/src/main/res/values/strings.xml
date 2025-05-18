@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Workfolio</string>
+    <string-array name="experience_levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Expert</item>
+    </string-array>
+
+    <string-array name="job_categories">
+        <item>Select Category</item>
+        <item>Web Development</item>
+        <item>Software Development</item>
+        <item>App Development</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
